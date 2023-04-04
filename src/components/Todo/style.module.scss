@@ -1,0 +1,68 @@
+.container {
+  width: 500px;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: azure;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.counter {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.createTodoForm {
+  display: flex;
+}
+
+.createTodoItem {
+  width: calc(100% - 95px);
+  padding: 5px;
+  border: 1px solid black;
+  outline:none;
+}
+
+.wrapperTodo {
+  width: 100%;
+  margin: 20px auto 0;
+}
+
+.wrapperBtn {
+  width: 100%;
+  margin-top: 10px;
+
+  .btn, .btnActive {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    background-color: #ae9797;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .btnActive {
+    background-color: chartreuse;
+  }
+}
+
+.btnAdd {
+  border: none;
+  border-radius: 3px;
+  background-color: chartreuse;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  display: block;
+  text-align: center;
+  width: 80px;
+  font-size: 16px;
+  margin-left: 15px;
+}

@@ -1,0 +1,42 @@
+.listTodo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 15px;
+  background-color: white;
+
+  div {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+.btnRename, .btnDelete {
+  border: none;
+  border-radius: 3px;
+  background-color: chartreuse;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btnDelete {
+  background-color: red;
+  margin-right: 0;
+}
+
+.text, .textCompleted, textarea {
+  max-width: 150px;
+  margin-left: 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-align: left;
+  cursor: pointer;
+}
+
+.textCompleted {
+  text-decoration: line-through;
+}
